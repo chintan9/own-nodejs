@@ -8,7 +8,11 @@ http.createServer(function (request, response) {
   router.home(request, response);
   router.user(request, response);
 }).listen(3000);
+<<<<<<< HEAD
 console.log('Server running at http://localhost:3000/');
+=======
+console.log('Server running at http://localhost:3000/'); // change address
+>>>>>>> f39c85be81d8ff9f1cb8d8db76c3cf2a0e3e3add
 
 
 
